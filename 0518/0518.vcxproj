@@ -127,10 +127,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\05017_연결리스트 (2)\0507_연결리스트\04_이중연결리스트.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\05017_연결리스트 (2)\0507_연결리스트\04_이중연결리스트.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="03_이중연결리스트(C코드).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Member.cpp" />
+    <ClCompile Include="MemberControl.cpp" />
+    <ClCompile Include="start.cpp" />
+    <ClCompile Include="WBLibrary.cpp" />
+    <ClCompile Include="wblist.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="노트.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\wblist.h" />
+    <ClInclude Include="Member.h" />
+    <ClInclude Include="MemberControl.h" />
+    <ClInclude Include="WBLibrary.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

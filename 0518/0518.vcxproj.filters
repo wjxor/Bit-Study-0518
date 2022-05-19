@@ -13,13 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\참조코드">
+      <UniqueIdentifier>{aa119ae2-4e04-4b7e-b1c0-7fbc969f7270}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="03_이중연결리스트(C코드).cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\참조코드</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\Downloads\05017_연결리스트 (2)\0507_연결리스트\04_이중연결리스트.cpp">
+      <Filter>소스 파일\참조코드</Filter>
+    </ClCompile>
+    <ClCompile Include="start.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Member.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="wblist.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MemberControl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WBLibrary.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="노트.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Member.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MemberControl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WBLibrary.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\wblist.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
