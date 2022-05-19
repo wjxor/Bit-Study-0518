@@ -18,5 +18,8 @@
     <ClCompile Include="03_이중연결리스트(C코드).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\05017_연결리스트 (2)\0507_연결리스트\04_이중연결리스트.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
